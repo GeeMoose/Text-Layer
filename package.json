@@ -10,11 +10,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@formatjs/intl-localematcher": "^0.5.4",
     "@nextui-org/react": "^2.2.10",
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
-    "@vercel/analytics": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.14",
@@ -35,7 +33,6 @@
     "pg": "^8.11.5"
   },
   "devDependencies": {
-    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

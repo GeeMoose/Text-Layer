@@ -1,5 +1,4 @@
 "use client";
-import { ALL_FAQS } from "@/config/faqs";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -11,11 +10,18 @@ function triggerResizeEvent() {
   window.dispatchEvent(event);
 }
 
-const FAQ = ({ id }: { id: string }) => {
-  const langName = "en";
-  const t = useTranslations("LandingPage");
-  const FAQS = ALL_FAQS[`FAQS_${langName.toUpperCase()}`];
+interface FAQItem {
+  title: string;
+  content: string;
+}
 
+const FAQ = ({ id }: { id: string }) => {
+  const t = useTranslations("LandingPage");
+
+  const FAQS = t.raw("FAQ.list").map((item: FAQItem) => ({
+    title: item.title,
+    content: item.content,
+  }));
   return (
     <section
       id={id}
@@ -44,7 +50,7 @@ const FAQ = ({ id }: { id: string }) => {
         variant="splitted"
         onSelectionChange={triggerResizeEvent}
       >
-        {FAQS?.map((item) => (
+        {FAQS?.map((item: FAQItem) => (
           <AccordionItem
             key={item.title}
             indicator={<PlusIcon />}

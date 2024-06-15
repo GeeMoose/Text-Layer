@@ -1,4 +1,9 @@
 {
+  "MetaData": {
+    "title": "i18n Translation Services - Instant Multilingual Solutions",
+    "description": "Explore top-tier i18n translation services for seamless, accurate multilingual communication. Fast, reliable, and ready to integrate. Elevate your global reach today!",
+    "keywords": "i18n translation, multilingual translation services, instant translation, language translation solutions, global communication services"
+  },
   "LandingPage": {
     "Hero": {
       "title1": "Ship",
@@ -27,7 +32,45 @@
     },
     "FAQ": {
       "title": "FAQs",
-      "description": "Here are some of the most frequently asked questions."
+      "description": "Here are some of the most frequently asked questions.",
+      "list": [
+        {
+          "title": "What is the i18n translation service?",
+          "content": "The i18n translation service is designed to help users quickly translate texts from one language to others. Leveraging advanced machine learning technologies, our service provides accurate and natural translations suitable for business, educational, and personal use."
+        },
+        {
+          "title": "How do I start using the translation service?",
+          "content": "To get started, register an account and select the language you need to translate. You can either type in the text or upload a file containing the text, and our system will automatically process and provide the translation."
+        },
+        {
+          "title": "How accurate are the translations?",
+          "content": "Our translation service uses the latest language models to ensure high-quality outcomes. We also regularly update our models to include the latest linguistic developments and industry-specific terminology."
+        },
+        {
+          "title": "Which languages are supported?",
+          "content": "We support multiple languages including English, Chinese, Spanish, French, and other major languages. A detailed list of supported languages is available on our website."
+        },
+        {
+          "title": "How is data security ensured?",
+          "content": "We place great importance on the security of user data. All translation data are encrypted, and we adhere to strict data protection regulations to manage and protect user information."
+        },
+        {
+          "title": "Is there an API available for integration into other applications?",
+          "content": "Yes, we provide an API that allows developers to easily integrate our translation services into various applications and systems, supporting automation and batch processing needs."
+        },
+        {
+          "title": "How are industry-specific terminologies handled in translations?",
+          "content": "Our system can recognize and accurately translate industry-specific terminologies, including medical, legal, and technical terms. Users can also customize terminology glossaries to optimize translation results for specific needs."
+        },
+        {
+          "title": "Can users customize the translation style?",
+          "content": "Yes, we offer various customization options, including adjustments in language style and the use of formal or informal expressions, to meet different translation needs for various occasions."
+        },
+        {
+          "title": "How can I get support if I encounter issues?",
+          "content": "Our customer support team is available around the clock. You can contact us via email, phone, or our online chat tool. We commit to responding quickly and resolving any questions or issues you may have."
+        }
+      ]
     },
     "CTA": {
       "title": "Build Your Landing Page Now",
