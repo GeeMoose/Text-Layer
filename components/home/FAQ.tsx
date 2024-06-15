@@ -55,8 +55,10 @@ const FAQ = ({ id }: { id: string }) => {
             key={item.title}
             indicator={<PlusIcon />}
             title={item.title}
+            textValue={item.content}
+            HeadingComponent={"h3"}
           >
-            {item.content}
+            <p>{item.content}</p>
           </AccordionItem>
         ))}
       </Accordion>

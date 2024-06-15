@@ -44,7 +44,7 @@ const Pricing = ({ id }: { id: string }) => {
         {TIERS?.map((tier) => (
           <Card key={tier.key} className="p-3 flex-1 w-[90%]" shadow="md">
             <CardHeader className="flex flex-col items-start gap-2 pb-6">
-              <h2 className="text-large font-medium">{tier.title}</h2>
+              <h3 className="text-large font-medium">{tier.title}</h3>
               <p className="text-medium text-default-500">{tier.description}</p>
             </CardHeader>
             <Divider />
