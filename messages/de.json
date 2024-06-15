@@ -1,0 +1,45 @@
+{
+  "LandingPage": {
+    "Hero": {
+      "title1": "Schiff",
+      "title2": "Landingpage",
+      "title3": "Schnell",
+      "description": "Eine kostenlose, Open-Source- und leistungsstarke Landingpage-Boilerplate, ideal für verschiedene Projekte, mit der Sie in weniger als einer Stunde eine Landingpage erstellen können."
+    },
+    "SocialProof": {
+      "maker": "Macher versenden schnell"
+    },
+    "Feature": {
+      "title": "Funktionen"
+    },
+    "Pricing": {
+      "title": "Preise",
+      "title2": "Erhalten Sie unbegrenzten Zugriff.",
+      "description": "Die Seite, die Sie gerade sehen, ist eine Open-Source- und kostenlose Boilerplate.",
+      "doYouLike": "Gefällt Ihnen diese Landingpage-Boilerplate?",
+      "follow": "Folgen Sie mir auf Twitter."
+    },
+    "WallOfLove": {
+      "title": "Wand der Liebe",
+      "description1": "Wenn Sie diese Landingpage-Vorlage verwenden und sie auf Twitter empfehlen,",
+      "description2": "lassen Sie es mich bitte wissen",
+      "description3": ". Ich werde Ihren Tweet und Ihre Empfehlung hier anzeigen."
+    },
+    "FAQ": {
+      "title": "FAQs",
+      "description": "Hier sind einige der am häufigsten gestellten Fragen."
+    },
+    "CTA": {
+      "title": "Erstellen Sie jetzt Ihre Landingpage",
+      "description1": "Erstellen",
+      "description2": "Sie Ihre Landingpage,",
+      "description3": "zeigen",
+      "description4": "Sie Ihr Produkt, und",
+      "description5": "beginnen Sie zu verdienen",
+      "description6": "!"
+    },
+    "CTAButton": {
+      "title": "Boilerplate abrufen"
+    }
+  }
+}

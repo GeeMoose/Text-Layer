@@ -1,0 +1,45 @@
+{
+  "LandingPage": {
+    "Hero": {
+      "title1": "배송",
+      "title2": "랜딩 페이지",
+      "title3": "빠르게",
+      "description": "다양한 프로젝트에 적합한 무료 오픈 소스 강력한 랜딩 페이지 템플릿. 1시간 안에 랜딩 페이지를 만들 수 있습니다."
+    },
+    "SocialProof": {
+      "maker": "제작자는 빠르게 배송합니다"
+    },
+    "Feature": {
+      "title": "특징"
+    },
+    "Pricing": {
+      "title": "가격",
+      "title2": "무제한 액세스를 받으세요.",
+      "description": "현재 보고 계신 페이지는 오픈 소스 무료 템플릿입니다.",
+      "doYouLike": "이 랜딩 페이지 템플릿이 마음에 드시나요?",
+      "follow": "제 트위터를 팔로우하세요."
+    },
+    "WallOfLove": {
+      "title": "사랑의 벽",
+      "description1": "이 랜딩 페이지 템플릿을 사용하시고 트위터에서 추천해 주신다면,",
+      "description2": "알려주세요.",
+      "description3": ". 트윗과 추천을 여기에 표시하겠습니다."
+    },
+    "FAQ": {
+      "title": "자주 묻는 질문",
+      "description": "가장 자주 묻는 질문을 모아 보았습니다."
+    },
+    "CTA": {
+      "title": "지금 랜딩 페이지 만들기",
+      "description1": "만드세요",
+      "description2": "랜딩 페이지,",
+      "description3": "보여주세요",
+      "description4": "제품을, 그리고",
+      "description5": "수익 창출을 시작하세요",
+      "description6": "!"
+    },
+    "CTAButton": {
+      "title": "템플릿 받기"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import { LineText } from "@/components/LineText";
 import MotionWarpper from "@/components/common/MotionWarpper";
 import CTAButton from "@/components/home/CTAButton";
+
 import { useTranslations } from "next-intl";
 
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
           </p>
         </section>
       </MotionWarpper>
-      <CTAButton></CTAButton>
+      <CTAButton />
     </>
   );
 };

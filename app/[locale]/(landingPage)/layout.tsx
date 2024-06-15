@@ -2,9 +2,8 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
-import { Suspense } from "react";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -20,11 +19,9 @@ export default function LandingPageLayout({
         fontSans.variable
       )}
     >
-      <Suspense>
-        <Header />
-        <main className="flex flex-col items-center py-6">{children}</main>
-        <Footer />
-      </Suspense>
+      <Header />
+      <main className="flex flex-col items-center py-6">{children}</main>
+      <Footer />
     </div>
   );
 }

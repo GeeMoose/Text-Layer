@@ -1,0 +1,45 @@
+{
+  "LandingPage": {
+    "Hero": {
+      "title1": "Navio",
+      "title2": "Página de Destino",
+      "title3": "Rápido",
+      "description": "Um modelo de página de destino gratuito, de código aberto e poderoso, ideal para vários projetos, permitindo que você crie uma página de destino em menos de uma hora."
+    },
+    "SocialProof": {
+      "maker": "os fabricantes enviam rápido"
+    },
+    "Feature": {
+      "title": "Recursos"
+    },
+    "Pricing": {
+      "title": "Preços",
+      "title2": "Obtenha acesso ilimitado.",
+      "description": "A página que você está visualizando atualmente é um modelo gratuito de código aberto.",
+      "doYouLike": "Você gosta deste modelo de página de destino?",
+      "follow": "Siga meu Twitter."
+    },
+    "WallOfLove": {
+      "title": "Parede do Amor",
+      "description1": "Se você usar este modelo de página de destino e recomendá-lo no seu Twitter,",
+      "description2": "por favor, me avise",
+      "description3": ". Vou exibir seu tweet e recomendação aqui."
+    },
+    "FAQ": {
+      "title": "Perguntas frequentes",
+      "description": "Aqui estão algumas das perguntas mais frequentes."
+    },
+    "CTA": {
+      "title": "Crie Sua Página de Destino Agora",
+      "description1": "Crie",
+      "description2": "sua página de destino,",
+      "description3": "mostre",
+      "description4": "seu produto e",
+      "description5": "comece a ganhar",
+      "description6": "!"
+    },
+    "CTAButton": {
+      "title": "Obter Modelo"
+    }
+  }
+}

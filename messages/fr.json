@@ -1,0 +1,45 @@
+{
+  "LandingPage": {
+    "Hero": {
+      "title1": "Expédiez",
+      "title2": "Page de destination",
+      "title3": "Rapide",
+      "description": "Une page de destination open source, gratuite et puissante, idéale pour divers projets, vous permettant de créer une page de destination en moins d'une heure."
+    },
+    "SocialProof": {
+      "maker": "les makers expédient rapidement"
+    },
+    "Feature": {
+      "title": "Fonctionnalités"
+    },
+    "Pricing": {
+      "title": "Tarification",
+      "title2": "Obtenez un accès illimité.",
+      "description": "La page que vous consultez actuellement est une page de destination open source et gratuite.",
+      "doYouLike": "Aimez-vous cette page de destination ?",
+      "follow": "Suivez-moi sur Twitter."
+    },
+    "WallOfLove": {
+      "title": "Mur d'amour",
+      "description1": "Si vous utilisez ce modèle de page de destination et que vous le recommandez sur votre Twitter,",
+      "description2": "faites-le moi savoir",
+      "description3": ". Je publierai votre tweet et votre recommandation ici."
+    },
+    "FAQ": {
+      "title": "FAQ",
+      "description": "Voici quelques-unes des questions les plus fréquentes."
+    },
+    "CTA": {
+      "title": "Créez votre page de destination maintenant",
+      "description1": "Créez",
+      "description2": "votre page de destination,",
+      "description3": "montrez",
+      "description4": "votre produit et",
+      "description5": "commencez à gagner",
+      "description6": "!"
+    },
+    "CTAButton": {
+      "title": "Obtenir l'exemple"
+    }
+  }
+}

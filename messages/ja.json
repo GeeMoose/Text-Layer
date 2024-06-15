@@ -1,43 +1,45 @@
 {
-  "Hero": {
-    "title1": "",
-    "title2": "ランディングページ",
-    "title3": "迅速に構築",
-    "description": "無料でオープンソースかつ強力なランディングページのテンプレート。さまざまなプロジェクトに理想的で、1時間以内にランディングページを作成できます。"
-  },
-  "SocialProof": {
-    "maker": "開発者が迅速に出荷"
-  },
-  "Feature": {
-    "title": "Feature"
-  },
-  "Pricing": {
-    "title": "価格設定",
-    "title2": "無制限アクセスを取得。",
-    "description": "現在閲覧中のページは、オープンソースで無料のテンプレートです。",
-    "doYouLike": "このランディングページのテンプレートは気に入りましたか？",
-    "follow": "私のTwitterをフォローしてください。"
-  },
-  "WallOfLove": {
-    "title": "WallOfLove",
-    "description1": "このランディングページテンプレートを使用してTwitterで推奨した場合、",
-    "description2": "私に知らせてください",
-    "description3": "。あなたのツイートと推薦をここに表示します。"
-  },
-  "FAQ": {
-    "title": "FAQs",
-    "description": "最も頻繁に尋ねられる質問はこちらです。"
-  },
-  "CTA": {
-    "title": "今すぐあなたのランディングページを構築",
-    "description1": "あなたのランディングページを",
-    "description2": "構築し、",
-    "description3": "あなたの製品を",
-    "description4": "紹介し、そして",
-    "description5": "収益を得始めましょう",
-    "description6": "！"
-  },
-  "CTAButton": {
-    "title": "テンプレートを入手"
+  "LandingPage": {
+    "Hero": {
+      "title1": "出荷",
+      "title2": "ランディングページ",
+      "title3": "高速",
+      "description": "さまざまなプロジェクトに最適な、無料でオープンソースの強力なランディングページボイラープレート。1時間以内にランディングページを作成できます。"
+    },
+    "SocialProof": {
+      "maker": "メーカーは高速に発送します"
+    },
+    "Feature": {
+      "title": "機能"
+    },
+    "Pricing": {
+      "title": "価格",
+      "title2": "無制限にアクセス",
+      "description": "現在ご覧になっているページは、オープンソースで無料のボイラープレートです。",
+      "doYouLike": "このランディングページボイラープレートは気に入りましたか？",
+      "follow": "私のTwitterをフォローしてください。"
+    },
+    "WallOfLove": {
+      "title": "ラブウォール",
+      "description1": "このランディングページテンプレートを使用し、Twitterで推奨する場合、",
+      "description2": "お知らせください",
+      "description3": "。あなたのツイートと推奨事項をここに表示します。"
+    },
+    "FAQ": {
+      "title": "よくある質問",
+      "description": "よくある質問をいくつかご紹介します。"
+    },
+    "CTA": {
+      "title": "今すぐランディングページを作成",
+      "description1": "作成",
+      "description2": "あなたのランディングページを",
+      "description3": "表示",
+      "description4": "あなたの製品を、そして",
+      "description5": "稼ぎ始めましょう",
+      "description6": "!"
+    },
+    "CTAButton": {
+      "title": "ボイラープレートを入手"
+    }
   }
 }
