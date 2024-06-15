@@ -2,6 +2,7 @@
 import { ALL_FAQS } from "@/config/faqs";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { PlusIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { RoughNotation } from "react-rough-notation";
 
 // update rough notation highlight
@@ -10,15 +11,9 @@ function triggerResizeEvent() {
   window.dispatchEvent(event);
 }
 
-const FAQ = ({
-  id,
-  locale,
-  langName,
-}: {
-  id: string;
-  locale: any;
-  langName: string;
-}) => {
+const FAQ = ({ id }: { id: string }) => {
+  const langName = "en";
+  const t = useTranslations("LandingPage");
   const FAQS = ALL_FAQS[`FAQS_${langName.toUpperCase()}`];
 
   return (
@@ -29,10 +24,10 @@ const FAQ = ({
       <div className="flex flex-col text-center gap-4">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
-            {locale.title}
+            {t("FAQ.title")}
           </RoughNotation>
         </h2>
-        <p className="text-large text-default-500">{locale.description}</p>
+        <p className="text-large text-default-500">{t("FAQ.description")}</p>
       </div>
       <Accordion
         fullWidth
@@ -64,3 +59,4 @@ const FAQ = ({
 };
 
 export default FAQ;
+

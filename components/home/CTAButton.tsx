@@ -1,8 +1,12 @@
 import { Button } from "@/components/ui/button";
+
 import { RocketIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
+
 import Link from "next/link";
 
-const CTAButton = ({ locale }: { locale: any }) => {
+const CTAButton = () => {
+  const t = useTranslations("LandingPage");
   return (
     <Link
       href="https://github.com/weijunext/landing-page-boilerplate"
@@ -15,10 +19,11 @@ const CTAButton = ({ locale }: { locale: any }) => {
         aria-label="Get Boilerplate"
       >
         <RocketIcon />
-        {locale.title}
+        {t("CTAButton.title")}
       </Button>
     </Link>
   );
 };
 
 export default CTAButton;
+

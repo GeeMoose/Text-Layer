@@ -1,20 +1,26 @@
-import { locales } from "./lib/i18n";
+import {
+  defaultLocale,
+  localeDetection,
+  localePrefix,
+  locales,
+  pathnames,
+} from "@/config/locale";
 
-import { NextRequest } from "next/server";
+import createMiddleware from "next-intl/middleware";
 
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
-  const isExit = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-
-  if (isExit) return;
-
-  request.nextUrl.pathname = `/`;
-  return Response.redirect(request.nextUrl);
-}
+export default createMiddleware({
+  locales,
+  defaultLocale,
+  localePrefix,
+  localeDetection,
+  pathnames,
+});
 
 export const config = {
-  matcher: ["/((?!_next)(?!.*\\.(?:ico|png|svg|jpg|jpeg|xml|txt)$)(?!/api).*)"],
+  matcher: [
+    "/",
+    "/(en|en-US|zh|zh-CN|zh-TW|zh-HK|zh-MO|ja|ko|ru|fr|de|ar)/:path*",
+    "/((?!privacy-policy|terms-of-service|api|_next|_vercel|.*\\..*).*)",
+  ],
 };
+

@@ -6,29 +6,27 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useParams, useRouter } from "next/navigation";
-
-import { defaultLocale, localeNames } from "@/lib/i18n";
+import { localeNames } from "@/config/locale";
+import { useParams, usePathname, useRouter } from "next/navigation";
 
 export const LangSwitcher = () => {
   const params = useParams();
-  const lang = params.lang;
-
-  // const lang = (params.lang && params.lang[0]) || defaultLocale;
-  let langName =
-    lang && lang[0] && lang[0] !== "index" ? lang[0] : defaultLocale;
+  const locale = params.locale as string;
   const router = useRouter();
+  const pathname = usePathname();
 
   const handleSwitchLanguage = (value: string) => {
-    if (value === defaultLocale) {
-      router.push("/");
-      return;
+    if (value !== locale) {
+      let newPathName = pathname.replace(`/${locale}`, `/${value}`);
+      if (!newPathName.startsWith(`/${value}`)) {
+        newPathName = `/${value}${newPathName}`;
+      }
+      router.push(newPathName);
     }
-    router.push(value);
   };
 
   return (
-    <Select value={langName} onValueChange={handleSwitchLanguage}>
+    <Select value={locale} onValueChange={handleSwitchLanguage}>
       <SelectTrigger className="w-fit">
         <SelectValue placeholder="Language" />
       </SelectTrigger>
@@ -45,3 +43,4 @@ export const LangSwitcher = () => {
     </Select>
   );
 };
+

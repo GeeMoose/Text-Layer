@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Button,
   Card,
@@ -13,18 +11,14 @@ import {
 
 import { siteConfig } from "@/config/site";
 import { ALL_TIERS } from "@/config/tiers";
+
+import { useTranslations } from "next-intl";
 import { FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
 
-const Pricing = ({
-  id,
-  locale,
-  langName,
-}: {
-  id: string;
-  locale: any;
-  langName: string;
-}) => {
+const Pricing = ({ id }: { id: string }) => {
+  const t = useTranslations("LandingPage");
+  const langName = "en";
   const TIERS = ALL_TIERS[`TIERS_${langName.toUpperCase()}`];
   return (
     <section
@@ -34,12 +28,16 @@ const Pricing = ({
       <div className="flex flex-col text-center max-w-xl">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
-            {locale.title}
+            {t("Pricing.title")}
           </RoughNotation>
         </h2>
-        <h3 className="text-4xl font-medium tracking-tight">{locale.title2}</h3>
+        <h3 className="text-4xl font-medium tracking-tight">
+          {t("Pricing.title2")}
+        </h3>
         <Spacer y={4} />
-        <p className="text-large text-default-500">{locale.description}</p>
+        <p className="text-large text-default-500">
+          {t("Pricing.description")}
+        </p>
       </div>
       <Spacer y={8} />
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-items-center">
@@ -89,14 +87,14 @@ const Pricing = ({
       <Spacer y={12} />
       <div className="flex py-2">
         <p className="text-default-400 text-center">
-          {locale.doYouLike}&nbsp;
+          {t("Pricing.doYouLike")}&nbsp;
           <Link
             color="foreground"
             href={siteConfig.authors[0].twitter}
             underline="always"
             rel="noopener noreferrer nofollow"
           >
-            {locale.follow}
+            {t("Pricing.follow")}
           </Link>
         </p>
       </div>
@@ -105,3 +103,4 @@ const Pricing = ({
 };
 
 export default Pricing;
+

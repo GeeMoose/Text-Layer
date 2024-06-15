@@ -2,11 +2,13 @@
 import { TwitterX } from "@/components/social-icons/icons";
 import { siteConfig } from "@/config/site";
 import { WALL_OF_LOVE } from "@/config/wallOfLove";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { RoughNotation } from "react-rough-notation";
 
-const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
+const WallOfLove = ({ id }: { id: string }) => {
+  const t = useTranslations("LandingPage");
   return (
     <section
       id={id}
@@ -15,21 +17,21 @@ const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
       <div className="flex flex-col text-center max-w-xl gap-4">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
-            {locale.title}
+            {t("WallOfLove.title")}
           </RoughNotation>
         </h2>
         <p className="text-large text-default-500">
           {/* Don't take our word for it. Here's what they have to say. */}
-          {locale.description1}{" "}
+          {t("WallOfLove.description1")}{" "}
           <Link
             href={siteConfig.authors[0].twitter as string}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-primary underline"
           >
-            {locale.description2}
+            {t("WallOfLove.description2")}
           </Link>
-          {locale.description3}
+          {t("WallOfLove.description3")}
         </p>
       </div>
       <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 overflow-hidden relative transition-all">
@@ -72,3 +74,4 @@ const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
 };
 
 export default WallOfLove;
+

@@ -1,4 +1,4 @@
-import { defaultLocale, localeNames } from "@/lib/i18n";
+import { defaultLocale, localeNames } from "@/config/locale";
 import Link from "next/link";
 
 const LangLinks = () => {
@@ -17,3 +17,4 @@ const LangLinks = () => {
 };
 
 export default LangLinks;
+

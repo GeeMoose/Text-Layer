@@ -2,6 +2,7 @@
   "name": "landing-page-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "type":"module",
   "scripts": {
     "dev": "next dev",
     "postbuild": "next-sitemap",
@@ -29,7 +30,10 @@
     "react-icons": "^5.0.1",
     "react-rough-notation": "^1.0.5",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "next-auth": "^4.24.7",
+    "next-intl": "^3.10.0",
+    "pg": "^8.11.5"
   },
   "devDependencies": {
     "@types/negotiator": "^0.6.3",
@@ -45,3 +49,4 @@
     "typescript": "^5"
   }
 }
+

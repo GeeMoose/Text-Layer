@@ -1,22 +1,13 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
-import { TailwindIndicator } from "@/components/TailwindIndicator";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
+
 import { siteConfig } from "@/config/site";
-import { defaultLocale } from "@/lib/i18n";
-import { cn } from "@/lib/utils";
+
 import "@/styles/globals.css";
 import "@/styles/loading.css";
-import { Analytics } from "@vercel/analytics/react";
-import { Viewport } from "next";
-import { Inter as FontSans } from "next/font/google";
 
-export const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+import { Viewport } from "next";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 
 export const metadata = {
   title: siteConfig.name,
@@ -35,40 +26,34 @@ export const viewport: Viewport = {
 
 export default async function RootLayout({
   children,
-  params: { lang },
+  params: { locale },
 }: {
   children: React.ReactNode;
-  params: { lang: string[] | undefined };
+  params: { locale: string };
 }) {
+  const messages = useMessages();
+
   return (
-    <html lang={(lang && lang[0]) || defaultLocale} suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <head />
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
-        )}
-      >
+      <NextIntlClientProvider locale={locale} messages={messages}>
         <ThemeProvider
           attribute="class"
           defaultTheme={siteConfig.nextThemeColor}
           enableSystem
         >
-          <Header />
-          <main className="flex flex-col items-center py-6">{children}</main>
-          <Footer />
-          <Analytics />
-          <TailwindIndicator />
+          {children}
         </ThemeProvider>
-        {process.env.NODE_ENV === "development" ? (
-          <></>
-        ) : (
-          <>
-            <GoogleAnalytics />
-            <BaiDuAnalytics />
-          </>
-        )}
-      </body>
+      </NextIntlClientProvider>
+
+      {process.env.NODE_ENV === "development" ? (
+        <></>
+      ) : (
+        <>
+          <GoogleAnalytics />
+        </>
+      )}
     </html>
   );
 }
+

@@ -1,16 +1,11 @@
 import { ALL_FEATURES } from "@/config/feature";
+import { useTranslations } from "next-intl";
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
-const Feature = ({
-  id,
-  locale,
-  langName,
-}: {
-  id: string;
-  locale: any;
-  langName: string;
-}) => {
+const Feature = ({ id }: { id: string }) => {
+  const langName = "en";
+  const t = useTranslations("LandingPage");
   const FEATURES = ALL_FEATURES[`FEATURES_${langName.toUpperCase()}`];
   return (
     <section
@@ -19,7 +14,7 @@ const Feature = ({
     >
       <h2 className="text-center text-white">
         <RoughNotation type="highlight" show={true} color="#2563EB">
-          {locale.title}
+          {t("Feature.title")}
         </RoughNotation>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -52,3 +47,4 @@ const Feature = ({
 };
 
 export default Feature;
+

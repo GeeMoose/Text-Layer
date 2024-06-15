@@ -1,7 +1,9 @@
 import { Makers } from "@/config/makers";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-const SocialProof = ({ locale }: { locale: any }) => {
+const SocialProof = () => {
+  const t = useTranslations("LandingPage");
   return (
     <section className="flex flex-col items-center justify-center gap-20 mt-14">
       <div className="flex flex-col items-center gap-5">
@@ -21,7 +23,7 @@ const SocialProof = ({ locale }: { locale: any }) => {
         </div>
         <p className="text-sm text-slate-700 dark:text-slate-400">
           <span className="text-primary font-semibold text-base">1000+</span>{" "}
-          {locale.maker}
+          {t("SocialProof.maker")}
         </p>
       </div>
     </section>
@@ -29,3 +31,4 @@ const SocialProof = ({ locale }: { locale: any }) => {
 };
 
 export default SocialProof;
+
