@@ -9,17 +9,28 @@ import {
   Spacer,
 } from "@nextui-org/react";
 
-import { siteConfig } from "@/config/site";
-import { ALL_TIERS } from "@/config/tiers";
-
 import { useTranslations } from "next-intl";
 import { FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
 
+interface PlanItem {
+  key: string;
+  title: string;
+  price: string;
+  description: string;
+  features: string[];
+}
+
 const Pricing = ({ id }: { id: string }) => {
   const t = useTranslations("LandingPage");
-  const langName = "en";
-  const TIERS = ALL_TIERS[`TIERS_${langName.toUpperCase()}`];
+  const plans: PlanItem[] = t.raw("Pricing.plans").map((item: PlanItem) => ({
+    key: item.title,
+    title: item.title,
+    price: item.price,
+    description: item.description,
+    features: item.features,
+  }));
+
   return (
     <section
       id={id}
@@ -40,27 +51,27 @@ const Pricing = ({ id }: { id: string }) => {
         </p>
       </div>
       <Spacer y={8} />
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 justify-items-center">
-        {TIERS?.map((tier) => (
-          <Card key={tier.key} className="p-3 flex-1 w-[90%]" shadow="md">
+      <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 justify-items-center">
+        {plans?.map((plan) => (
+          <Card key={plan.key} className="p-3 flex-1 w-[90%]" shadow="md">
             <CardHeader className="flex flex-col items-start gap-2 pb-6">
-              <h3 className="text-large font-medium">{tier.title}</h3>
-              <p className="text-medium text-default-500">{tier.description}</p>
+              <h3 className="text-large font-medium">{plan.title}</h3>
+              <p className="text-medium text-default-500">{plan.description}</p>
             </CardHeader>
             <Divider />
             <CardBody className="gap-8">
               <p className="flex items-baseline gap-1 pt-2">
                 <span className="inline bg-gradient-to-br from-foreground to-foreground-600 bg-clip-text text-2xl font-semibold leading-7 tracking-tight text-transparent">
-                  {tier.price}
+                  {plan.price}
                 </span>
-                {typeof tier.price !== "string" ? (
+                {typeof plan.price !== "string" ? (
                   <span className="text-small font-medium text-default-400">
-                    {tier.price}
+                    {plan.price}
                   </span>
                 ) : null}
               </p>
               <ul className="flex flex-col gap-2">
-                {tier.features?.map((feature) => (
+                {plan.features?.map((feature) => (
                   <li key={feature} className="flex items-center gap-2">
                     <FaCheck className="text-blue-500" />
                     <p className="text-default-500">{feature}</p>
@@ -72,31 +83,17 @@ const Pricing = ({ id }: { id: string }) => {
               <Button
                 fullWidth
                 as={Link}
-                color={tier.buttonColor}
-                href={tier.href}
-                variant={tier.buttonVariant}
+                color={"default"}
+                href={"#"}
+                variant={"solid"}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                {tier.buttonText}
+                {t("Pricing.buttonText")}
               </Button>
             </CardFooter>
           </Card>
         ))}
-      </div>
-      <Spacer y={12} />
-      <div className="flex py-2">
-        <p className="text-default-400 text-center">
-          {t("Pricing.doYouLike")}&nbsp;
-          <Link
-            color="foreground"
-            href={siteConfig.authors[0].twitter}
-            underline="always"
-            rel="noopener noreferrer nofollow"
-          >
-            {t("Pricing.follow")}
-          </Link>
-        </p>
       </div>
     </section>
   );

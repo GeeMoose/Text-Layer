@@ -1,45 +1,148 @@
 {
   "LandingPage": {
-    "Hero": {
-      "title1": "Schiff",
-      "title2": "Landingpage",
-      "title3": "Schnell",
-      "description": "Eine kostenlose, Open-Source- und leistungsstarke Landingpage-Boilerplate, ideal für verschiedene Projekte, mit der Sie in weniger als einer Stunde eine Landingpage erstellen können."
-    },
-    "SocialProof": {
-      "maker": "Macher versenden schnell"
-    },
-    "Feature": {
-      "title": "Funktionen"
-    },
     "Pricing": {
+      "buttonText": "Los geht's",
+      "plans": [
+        {
+          "title": "Kostenlos",
+          "price": "0",
+          "description": "Für den persönlichen Gebrauch"
+        },
+        {
+          "title": "Pro",
+          "price": "3$",
+          "description": "Für kommerzielle Nutzung",
+          "features": [
+            "Unbegrenzter Zugriff",
+            "Anpassbar",
+            "24/7-Support"
+          ]
+        },
+        {
+          "title": "Enterprise",
+          "price": "15$",
+          "description": "Für den Unternehmenseinsatz",
+          "features": [
+            "Unbegrenzter Zugriff",
+            "Anpassbar",
+            "24/7-Support",
+            "API-Integration"
+          ]
+        }
+      ],
       "title": "Preise",
       "title2": "Erhalten Sie unbegrenzten Zugriff.",
-      "description": "Die Seite, die Sie gerade sehen, ist eine Open-Source- und kostenlose Boilerplate.",
-      "doYouLike": "Gefällt Ihnen diese Landingpage-Boilerplate?",
-      "follow": "Folgen Sie mir auf Twitter."
+      "description": "Die Seite, die Sie gerade betrachten, ist eine Open-Source-freie Vorlage.",
+      "follow": "Folge meinem Twitter."
+    },
+    "Hero": {
+      "title1": "Schnelle",
+      "title2": "Mehrsprachige",
+      "title3": "Dienstleistung",
+      "description": "Mit i18n Translate ist die Lokalisierung Ihrer Anwendung sofort möglich. Erleben Sie schnelle Lieferung und verbinden Sie sich mühelos mit einem weltweiten Publikum, während Sie gleichzeitig kulturelle Genauigkeit gewährleisten."
+    },
+    "SocialProof": {
+      "maker": "Macher liefern schnell"
     },
     "WallOfLove": {
       "title": "Wand der Liebe",
-      "description1": "Wenn Sie diese Landingpage-Vorlage verwenden und sie auf Twitter empfehlen,",
+      "description1": "Wenn Sie unser Übersetzungsprodukt verwenden und es auf Ihrem Twitter empfehlen,",
       "description2": "lassen Sie es mich bitte wissen",
       "description3": ". Ich werde Ihren Tweet und Ihre Empfehlung hier anzeigen."
     },
+    "Feature": {
+      "title": "Eigenschaften",
+      "list": [
+        {
+          "title": "Sofortübersetzung",
+          "content": "Erhalten Sie sofortige Übersetzungen für Ihre Inhalte, Dokumente und Anwendungen. Unser Service wurde entwickelt, um schnelle und genaue Übersetzungen bereitzustellen, um Ihren mehrsprachigen Bedürfnissen gerecht zu werden.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Hochwertige Ergebnisse",
+          "content": "Unser Übersetzungsservice verwendet fortschrittliche Sprachmodelle, um qualitativ hochwertige Ergebnisse zu gewährleisten. Wir bieten genaue und natürliche Übersetzungen, die sich für geschäftliche, pädagogische und private Zwecke eignen.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Anpassungsmöglichkeiten",
+          "content": "Wir bieten verschiedene Anpassungsmöglichkeiten, einschließlich Anpassungen des Sprachstils und der Verwendung formeller oder informeller Ausdrücke, um verschiedene Übersetzungsbedürfnisse für verschiedene Anlässe zu erfüllen.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Branchenspezifische Terminologie",
+          "content": "Unser System kann branchenspezifische Terminologien, einschließlich medizinischer, rechtlicher und technischer Begriffe, erkennen und präzise übersetzen. Benutzer können auch Terminologieglossare anpassen, um Übersetzungsergebnisse für spezifische Bedürfnisse zu optimieren.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Datensicherheit",
+          "content": "Wir legen großen Wert auf die Sicherheit von Benutzerdaten. Alle Übersetzungsdaten werden verschlüsselt, und wir halten uns an strenge Datenschutzbestimmungen, um Benutzerinformationen zu verwalten und zu schützen.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "API-Integration",
+          "content": "Wir bieten eine API, die es Entwicklern ermöglicht, unsere Übersetzungsservices einfach in verschiedene Anwendungen und Systeme zu integrieren, um die Automatisierung und die Anforderungen der Batchverarbeitung zu unterstützen.",
+          "icon": "FaToolbox"
+        }
+      ]
+    },
     "FAQ": {
       "title": "FAQs",
-      "description": "Hier sind einige der am häufigsten gestellten Fragen."
+      "description": "Hier sind einige der am häufigsten gestellten Fragen.",
+      "list": [
+        {
+          "title": "Was ist der i18n Übersetzungsservice?",
+          "content": "Der i18n Übersetzungsservice wurde entwickelt, um Benutzern zu helfen, Texte schnell von einer Sprache in andere zu übersetzen. Unter Verwendung fortschrittlicher maschineller Lerntechnologien bietet unser Service genaue und natürliche Übersetzungen, die sich für geschäftliche, pädagogische und private Zwecke eignen."
+        },
+        {
+          "title": "Wie beginne ich mit der Nutzung des Übersetzungsservices?",
+          "content": "Um zu beginnen, registrieren Sie ein Konto und wählen Sie die Sprache aus, die Sie übersetzen müssen. Sie können entweder den Text eingeben oder eine Datei mit dem Text hochladen, und unser System verarbeitet und liefert die Übersetzung automatisch."
+        },
+        {
+          "title": "Wie genau sind die Übersetzungen?",
+          "content": "Unser Übersetzungsservice verwendet die neuesten Sprachmodelle, um qualitativ hochwertige Ergebnisse zu gewährleisten. Wir aktualisieren unsere Modelle auch regelmäßig, um die neuesten sprachlichen Entwicklungen und branchenspezifische Terminologie einzubeziehen."
+        },
+        {
+          "title": "Welche Sprachen werden unterstützt?",
+          "content": "Wir unterstützen mehrere Sprachen, darunter Englisch, Chinesisch, Spanisch, Französisch und andere wichtige Sprachen. Eine detaillierte Liste der unterstützten Sprachen finden Sie auf unserer Website."
+        },
+        {
+          "title": "Wie wird die Datensicherheit gewährleistet?",
+          "content": "Wir legen großen Wert auf die Sicherheit von Benutzerdaten. Alle Übersetzungsdaten werden verschlüsselt und wir halten uns an strenge Datenschutzbestimmungen, um Benutzerinformationen zu verwalten und zu schützen."
+        },
+        {
+          "title": "Gibt es eine API für die Integration in andere Anwendungen?",
+          "content": "Ja, wir bieten eine API, die es Entwicklern ermöglicht, unsere Übersetzungsservices einfach in verschiedene Anwendungen und Systeme zu integrieren und so Automatisierungs- und Batchverarbeitungsbedürfnisse zu unterstützen."
+        },
+        {
+          "title": "Wie werden branchenspezifische Terminologien in Übersetzungen behandelt?",
+          "content": "Unser System kann branchenspezifische Terminologien, einschließlich medizinischer, rechtlicher und technischer Begriffe, erkennen und korrekt übersetzen. Benutzer können auch Terminologieglossare anpassen, um die Übersetzungsergebnisse für bestimmte Anforderungen zu optimieren."
+        },
+        {
+          "title": "Können Benutzer den Übersetzungsstil anpassen?",
+          "content": "Ja, wir bieten verschiedene Anpassungsmöglichkeiten, einschließlich Anpassungen des Sprachstils und der Verwendung von formalen oder informellen Ausdrücken, um verschiedene Übersetzungsbedürfnisse für verschiedene Anlässe zu erfüllen."
+        },
+        {
+          "title": "Wie kann ich Unterstützung erhalten, wenn ich Probleme habe?",
+          "content": "Unser Kundensupport-Team steht rund um die Uhr zur Verfügung. Sie können uns per E-Mail, Telefon oder unserem Online-Chat-Tool kontaktieren. Wir verpflichten uns, schnell zu antworten und alle Ihre Fragen oder Probleme zu lösen."
+        }
+      ]
     },
     "CTA": {
-      "title": "Erstellen Sie jetzt Ihre Landingpage",
-      "description1": "Erstellen",
-      "description2": "Sie Ihre Landingpage,",
-      "description3": "zeigen",
-      "description4": "Sie Ihr Produkt, und",
-      "description5": "beginnen Sie zu verdienen",
-      "description6": "!"
+      "title": "Erstellen Sie jetzt Ihr mehrsprachiges Produkt",
+      "description1": "Etablieren Sie",
+      "description2": "Ihre mehrsprachige Präsenz,",
+      "description3": "Präsentieren Sie",
+      "description4": "Ihr Produkt weltweit und",
+      "description5": "Beginnen Sie",
+      "description6": "mit dem Engagement!"
     },
     "CTAButton": {
-      "title": "Boilerplate abrufen"
+      "title": "Vorlage abrufen"
     }
+  },
+  "MetaData": {
+    "title": "i18n Übersetzungsservices - Sofortige mehrsprachige Lösungen",
+    "description": "Entdecken Sie erstklassige i18n Übersetzungsservices für nahtlose, genaue mehrsprachige Kommunikation. Schnell, zuverlässig und integrationsbereit. Erhöhen Sie Ihre globale Reichweite noch heute!",
+    "keywords": "i18n Übersetzung, mehrsprachige Übersetzungsservices, Sofortübersetzung, Sprachübersetzungslösungen"
   }
 }

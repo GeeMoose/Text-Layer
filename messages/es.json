@@ -1,45 +1,148 @@
 {
   "LandingPage": {
+    "Pricing": {
+      "buttonText": "Empezar",
+      "plans": [
+        {
+          "title": "Gratis",
+          "price": "0",
+          "description": "Para uso personal"
+        },
+        {
+          "title": "Pro",
+          "price": "$3",
+          "description": "Para uso comercial",
+          "features": [
+            "Acceso ilimitado",
+            "Personalizable",
+            "Soporte 24/7"
+          ]
+        },
+        {
+          "title": "Empresa",
+          "price": "$15",
+          "description": "Para uso empresarial",
+          "features": [
+            "Acceso ilimitado",
+            "Personalizable",
+            "Soporte 24/7",
+            "Integración API"
+          ]
+        }
+      ],
+      "title": "Precios",
+      "title2": "Obtenga acceso ilimitado.",
+      "description": "La página que está viendo actualmente es un prototipo gratuito de código abierto.",
+      "follow": "Sigue mi Twitter."
+    },
     "Hero": {
-      "title1": "Envío",
-      "title2": "Página de aterrizaje",
-      "title3": "Rápido",
-      "description": "Un boilerplate de página de aterrizaje gratuito, de código abierto y potente, ideal para varios proyectos, que le permite crear una página de aterrizaje en menos de una hora."
+      "title1": "Rápido",
+      "title2": "Multilingüe",
+      "title3": "Servicio",
+      "description": "Con i18n Translate, la localización de su aplicación es instantánea. Experimente una entrega rápida y conéctese sin esfuerzo con una audiencia mundial, al mismo tiempo que garantiza la precisión cultural."
     },
     "SocialProof": {
       "maker": "los creadores envían rápido"
     },
-    "Feature": {
-      "title": "Características"
-    },
-    "Pricing": {
-      "title": "Precios",
-      "title2": "Obtenga acceso ilimitado.",
-      "description": "La página que está viendo actualmente es un boilerplate de código abierto y gratuito.",
-      "doYouLike": "¿Te gusta este boilerplate de página de aterrizaje?",
-      "follow": "Sigue mi Twitter."
-    },
     "WallOfLove": {
       "title": "Muro del amor",
-      "description1": "Si usas esta plantilla de página de aterrizaje y la recomiendas en tu Twitter,",
-      "description2": "avísame",
-      "description3": ". Mostraré tu tuit y recomendación aquí."
+      "description1": "Si usa nuestro producto de traducción y lo recomienda en su Twitter,",
+      "description2": "por favor, házmelo saber",
+      "description3": ". Mostraré tu tweet y recomendación aquí."
+    },
+    "Feature": {
+      "title": "Características",
+      "list": [
+        {
+          "title": "Traducción instantánea",
+          "content": "Obtenga traducciones inmediatas para su contenido, documentos y aplicaciones. Nuestro servicio está diseñado para proporcionar traducciones rápidas y precisas para satisfacer sus necesidades multilingües.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Resultados de alta calidad",
+          "content": "Nuestro servicio de traducción utiliza modelos lingüísticos avanzados para garantizar resultados de alta calidad. Ofrecemos traducciones precisas y naturales adecuadas para uso empresarial, educativo y personal.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Opciones de personalización",
+          "content": "Ofrecemos diversas opciones de personalización, incluidos ajustes en el estilo del idioma y el uso de expresiones formales o informales, para satisfacer diferentes necesidades de traducción para diversas ocasiones.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Terminología específica de la industria",
+          "content": "Nuestro sistema puede reconocer y traducir con precisión la terminología específica de la industria, incluidos términos médicos, legales y técnicos. Los usuarios también pueden personalizar los glosarios de terminología para optimizar los resultados de la traducción según sus necesidades específicas.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Seguridad de los datos",
+          "content": "Concedemos gran importancia a la seguridad de los datos del usuario. Todos los datos de traducción están encriptados y cumplimos con estrictas regulaciones de protección de datos para administrar y proteger la información del usuario.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Integración de API",
+          "content": "Proporcionamos una API que permite a los desarrolladores integrar fácilmente nuestros servicios de traducción en diversas aplicaciones y sistemas, lo que admite las necesidades de automatización y procesamiento por lotes.",
+          "icon": "FaToolbox"
+        }
+      ]
     },
     "FAQ": {
       "title": "Preguntas frecuentes",
-      "description": "Aquí están algunas de las preguntas más frecuentes."
+      "description": "Aquí están algunas de las preguntas más frecuentes.",
+      "list": [
+        {
+          "title": "¿Qué es el servicio de traducción i18n?",
+          "content": "El servicio de traducción i18n está diseñado para ayudar a los usuarios a traducir rápidamente textos de un idioma a otro. Aprovechando las tecnologías avanzadas de aprendizaje automático, nuestro servicio proporciona traducciones precisas y naturales adecuadas para uso empresarial, educativo y personal."
+        },
+        {
+          "title": "¿Cómo empiezo a usar el servicio de traducción?",
+          "content": "Para empezar, registre una cuenta y seleccione el idioma al que necesita traducir. Puede escribir el texto o cargar un archivo que contenga el texto, y nuestro sistema procesará y proporcionará la traducción automáticamente."
+        },
+        {
+          "title": "¿Qué tan precisas son las traducciones?",
+          "content": "Nuestro servicio de traducción utiliza los modelos de lenguaje más recientes para garantizar resultados de alta calidad. También actualizamos nuestros modelos periódicamente para incluir los últimos desarrollos lingüísticos y terminología específica de la industria."
+        },
+        {
+          "title": "¿Qué idiomas se admiten?",
+          "content": "Admitimos múltiples idiomas, incluidos inglés, chino, español, francés y otros idiomas principales. Una lista detallada de los idiomas admitidos está disponible en nuestro sitio web."
+        },
+        {
+          "title": "¿Cómo se garantiza la seguridad de los datos?",
+          "content": "Concedemos gran importancia a la seguridad de los datos de los usuarios. Todos los datos de traducción están encriptados y cumplimos con estrictas normas de protección de datos para gestionar y proteger la información de los usuarios."
+        },
+        {
+          "title": "¿Hay una API disponible para la integración en otras aplicaciones?",
+          "content": "Sí, ofrecemos una API que permite a los desarrolladores integrar fácilmente nuestros servicios de traducción en diversas aplicaciones y sistemas, lo que respalda las necesidades de automatización y procesamiento por lotes."
+        },
+        {
+          "title": "¿Cómo se manejan las terminologías específicas de la industria en las traducciones?",
+          "content": "Nuestro sistema puede reconocer y traducir con precisión las terminologías específicas de la industria, incluidos los términos médicos, legales y técnicos. Los usuarios también pueden personalizar los glosarios de terminología para optimizar los resultados de la traducción para necesidades específicas."
+        },
+        {
+          "title": "¿Pueden los usuarios personalizar el estilo de la traducción?",
+          "content": "Sí, ofrecemos varias opciones de personalización, incluidos ajustes en el estilo del lenguaje y el uso de expresiones formales o informales, para satisfacer las diferentes necesidades de traducción para diversas ocasiones."
+        },
+        {
+          "title": "¿Cómo puedo obtener asistencia si encuentro problemas?",
+          "content": "Nuestro equipo de atención al cliente está disponible las 24 horas del día, los 7 días de la semana. Puede comunicarse con nosotros por correo electrónico, teléfono o nuestra herramienta de chat en línea. Nos comprometemos a responder rápidamente y resolver cualquier pregunta o problema que pueda tener."
+        }
+      ]
     },
     "CTA": {
-      "title": "Construye tu página de aterrizaje ahora",
-      "description1": "Construye",
-      "description2": "tu página de aterrizaje,",
-      "description3": "muestra",
-      "description4": "tu producto, y",
-      "description5": "empieza a ganar",
-      "description6": "!"
+      "title": "Construye tu producto multilingüe ahora",
+      "description1": "Establece",
+      "description2": "Tu presencia multilingüe, ",
+      "description3": "Muestra",
+      "description4": "Tu producto en todo el mundo, y ",
+      "description5": "Comienza",
+      "description6": " ¡A interactuar!"
     },
     "CTAButton": {
-      "title": "Obtener boilerplate"
+      "title": "Obtener plantilla"
     }
+  },
+  "MetaData": {
+    "title": "Servicios de Traducción i18n - Soluciones Multilingües Instantáneas",
+    "description": "Explore los servicios de traducción i18n de primer nivel para una comunicación multilingüe fluida y precisa. Rápido, confiable y listo para integrar. ¡Eleve su alcance global hoy!",
+    "keywords": "traducción i18n, servicios de traducción multilingüe, traducción instantánea, soluciones de traducción de idiomas"
   }
 }

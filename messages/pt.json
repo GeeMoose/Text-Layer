@@ -1,45 +1,148 @@
 {
   "LandingPage": {
-    "Hero": {
-      "title1": "Navio",
-      "title2": "Página de Destino",
-      "title3": "Rápido",
-      "description": "Um modelo de página de destino gratuito, de código aberto e poderoso, ideal para vários projetos, permitindo que você crie uma página de destino em menos de uma hora."
-    },
-    "SocialProof": {
-      "maker": "os fabricantes enviam rápido"
-    },
-    "Feature": {
-      "title": "Recursos"
-    },
     "Pricing": {
+      "buttonText": "Comece agora",
+      "plans": [
+        {
+          "title": "Grátis",
+          "price": "0",
+          "description": "Para uso pessoal"
+        },
+        {
+          "title": "Pro",
+          "price": "$3",
+          "description": "Para uso comercial",
+          "features": [
+            "Acesso ilimitado",
+            "Personalizável",
+            "Suporte 24/7"
+          ]
+        },
+        {
+          "title": "Empresa",
+          "price": "$15",
+          "description": "Para uso empresarial",
+          "features": [
+            "Acesso ilimitado",
+            "Personalizável",
+            "Suporte 24/7",
+            "Integração de API"
+          ]
+        }
+      ],
       "title": "Preços",
       "title2": "Obtenha acesso ilimitado.",
       "description": "A página que você está visualizando atualmente é um modelo gratuito de código aberto.",
-      "doYouLike": "Você gosta deste modelo de página de destino?",
       "follow": "Siga meu Twitter."
+    },
+    "Hero": {
+      "title1": "Rápido",
+      "title2": "Multilíngue",
+      "title3": "Serviço",
+      "description": "Com o i18n Translate, a localização do seu aplicativo é instantânea. Experimente a entrega rápida e conecte-se sem esforço com um público mundial, garantindo ao mesmo tempo a precisão cultural."
+    },
+    "SocialProof": {
+      "maker": "os criadores enviam rápido"
     },
     "WallOfLove": {
       "title": "Parede do Amor",
-      "description1": "Se você usar este modelo de página de destino e recomendá-lo no seu Twitter,",
+      "description1": "Se você usar nosso produto de tradução e recomendá-lo no seu Twitter,",
       "description2": "por favor, me avise",
       "description3": ". Vou exibir seu tweet e recomendação aqui."
     },
+    "Feature": {
+      "title": "Recursos",
+      "list": [
+        {
+          "title": "Tradução Instantânea",
+          "content": "Obtenha traduções imediatas para seu conteúdo, documentos e aplicativos. Nosso serviço é projetado para fornecer traduções rápidas e precisas para atender às suas necessidades multilíngues.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Resultados de Alta Qualidade",
+          "content": "Nosso serviço de tradução utiliza modelos de linguagem avançados para garantir resultados de alta qualidade. Fornecemos traduções precisas e naturais adequadas para uso comercial, educacional e pessoal.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Opções de Personalização",
+          "content": "Oferecemos várias opções de personalização, incluindo ajustes no estilo da linguagem e o uso de expressões formais ou informais, para atender às diferentes necessidades de tradução para várias ocasiões.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Terminologias Específicas do Setor",
+          "content": "Nosso sistema pode reconhecer e traduzir com precisão terminologias específicas do setor, incluindo termos médicos, jurídicos e técnicos. Os usuários também podem personalizar glossários de terminologia para otimizar os resultados da tradução para necessidades específicas.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Segurança de Dados",
+          "content": "Atribuímos grande importância à segurança dos dados do usuário. Todos os dados de tradução são criptografados e aderimos a regulamentações rigorosas de proteção de dados para gerenciar e proteger as informações do usuário.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Integração da API",
+          "content": "Fornecemos uma API que permite que os desenvolvedores integrem facilmente nossos serviços de tradução em vários aplicativos e sistemas, suportando necessidades de automação e processamento em lote.",
+          "icon": "FaToolbox"
+        }
+      ]
+    },
     "FAQ": {
-      "title": "Perguntas frequentes",
-      "description": "Aqui estão algumas das perguntas mais frequentes."
+      "title": "Perguntas Frequentes",
+      "description": "Aqui estão algumas das perguntas mais frequentes.",
+      "list": [
+        {
+          "title": "O que é o serviço de tradução i18n?",
+          "content": "O serviço de tradução i18n foi projetado para ajudar os usuários a traduzir rapidamente textos de um idioma para outro. Aproveitando tecnologias avançadas de aprendizado de máquina, nosso serviço fornece traduções precisas e naturais adequadas para uso comercial, educacional e pessoal."
+        },
+        {
+          "title": "Como começar a usar o serviço de tradução?",
+          "content": "Para começar, registre uma conta e selecione o idioma que você precisa traduzir. Você pode digitar o texto ou fazer upload de um arquivo contendo o texto, e nosso sistema processará automaticamente e fornecerá a tradução."
+        },
+        {
+          "title": "Quão precisas são as traduções?",
+          "content": "Nosso serviço de tradução utiliza os modelos de linguagem mais recentes para garantir resultados de alta qualidade. Também atualizamos nossos modelos regularmente para incluir os últimos desenvolvimentos linguísticos e terminologia específica do setor."
+        },
+        {
+          "title": "Quais idiomas são suportados?",
+          "content": "Suportamos vários idiomas, incluindo inglês, chinês, espanhol, francês e outros idiomas principais. Uma lista detalhada dos idiomas suportados está disponível em nosso site."
+        },
+        {
+          "title": "Como a segurança dos dados é garantida?",
+          "content": "Damos grande importância à segurança dos dados do usuário. Todos os dados de tradução são criptografados e seguimos regulamentos rigorosos de proteção de dados para gerenciar e proteger as informações do usuário."
+        },
+        {
+          "title": "Existe uma API disponível para integração em outros aplicativos?",
+          "content": "Sim, fornecemos uma API que permite que os desenvolvedores integrem facilmente nossos serviços de tradução em vários aplicativos e sistemas, atendendo às necessidades de automação e processamento em lote."
+        },
+        {
+          "title": "Como as terminologias específicas do setor são tratadas nas traduções?",
+          "content": "Nosso sistema pode reconhecer e traduzir com precisão terminologias específicas do setor, incluindo termos médicos, jurídicos e técnicos. Os usuários também podem personalizar glossários de terminologia para otimizar os resultados da tradução para necessidades específicas."
+        },
+        {
+          "title": "Os usuários podem personalizar o estilo de tradução?",
+          "content": "Sim, oferecemos várias opções de personalização, incluindo ajustes no estilo da linguagem e uso de expressões formais ou informais, para atender às diferentes necessidades de tradução para várias ocasiões."
+        },
+        {
+          "title": "Como posso obter suporte se encontrar problemas?",
+          "content": "Nossa equipe de suporte ao cliente está disponível 24 horas por dia. Você pode entrar em contato conosco por e-mail, telefone ou nossa ferramenta de bate-papo online. Nos comprometemos a responder rapidamente e resolver quaisquer perguntas ou problemas que você possa ter."
+        }
+      ]
     },
     "CTA": {
-      "title": "Crie Sua Página de Destino Agora",
-      "description1": "Crie",
-      "description2": "sua página de destino,",
-      "description3": "mostre",
-      "description4": "seu produto e",
-      "description5": "comece a ganhar",
-      "description6": "!"
+      "title": "Construa seu Produto Multilíngue Agora",
+      "description1": "Estabeleça",
+      "description2": "Sua Presença Multilíngue, ",
+      "description3": "Exiba",
+      "description4": "Seu Produto em Todo o Mundo, e ",
+      "description5": "Comece",
+      "description6": " a se Engajar!"
     },
     "CTAButton": {
-      "title": "Obter Modelo"
+      "title": "Obtenha o Boilerplate"
     }
+  },
+  "MetaData": {
+    "title": "Serviços de Tradução i18n - Soluções Multilíngues Instantâneas",
+    "description": "Explore serviços de tradução i18n de primeira linha para uma comunicação multilíngue perfeita e precisa. Rápido, confiável e pronto para integração. Eleve seu alcance global hoje!",
+    "keywords": "tradução i18n, serviços de tradução multilíngues, tradução instantânea, soluções de tradução de idiomas"
   }
 }

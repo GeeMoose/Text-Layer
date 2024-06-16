@@ -9,6 +9,7 @@ import "@/styles/loading.css";
 import { Viewport } from "next";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { Suspense } from "react";
+import { getLangDir } from "rtl-detect";
 
 export const metadata = {
   title: siteConfig.name,
@@ -33,9 +34,10 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   const messages = useMessages();
+  const langDir = getLangDir(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} dir={langDir} suppressHydrationWarning>
       <head />
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>

@@ -19,23 +19,25 @@
     "lucide-react": "^0.316.0",
     "negotiator": "^0.6.3",
     "next": "14.1.0",
+    "next-auth": "^4.24.7",
+    "next-intl": "^3.10.0",
     "next-themes": "^0.2.1",
+    "pg": "^8.11.5",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.0.1",
     "react-rough-notation": "^1.0.5",
+    "rtl-detect": "^1.1.2",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7",
-    "next-auth": "^4.24.7",
-    "next-intl": "^3.10.0",
-    "pg": "^8.11.5"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/rtl-detect": "^1.0.3",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
@@ -45,4 +47,3 @@
     "typescript": "^5"
   }
 }
-

@@ -1,75 +1,74 @@
-
 export const WALL_OF_LOVE = [
   {
     user: {
-      name: "Founder",
-      username: "weijunext",
-      image: "/images/users/weijunext.jpeg",
+      name: "Alice",
+      username: "aliceDev",
+      image: "/images/users/1.jpeg",
     },
     content:
-      "As a front-end developer, I'm highly satisfied with this landing page template. Editing text and images was very intuitive, and I encountered no technical hurdles throughout the process. The template's responsive design is excellent as well; whether on mobile or desktop, the page layout adapts perfectly. I managed to launch my own product's landing page in just half a day, significantly boosting my efficiency.",
+      "Using i18n Translate, I was able to launch our multilingual app in record time. The platform's ability to handle JSON translations seamlessly across multiple languages saved us weeks of manual effort. Its accuracy and attention to cultural nuances are unmatched.",
   },
   {
     user: {
-      name: "User1",
-      username: "weijunext",
-      image: "/images/users/1.png",
-    },
-    content:
-      "This template has given me a new perspective on coding. As a backend developer with not much front-end experience, I found this template to be very user-friendly. I could build a professional-looking landing page with hardly any coding required. This not only saved me time but also sparked more interest in front-end development.",
-  },
-  {
-    user: {
-      name: "User2",
-      username: "weijunext",
+      name: "Bob",
+      username: "bobCoder",
       image: "/images/users/2.png",
     },
     content:
-      "As a developer who transitioned from design, I'm impressed with the aesthetic design of this template. It's not only easy to use but also comes with a default design that feels both modern and professional. I made some adjustments to the details to match my brand style, and the entire process was both simple and enjoyable.",
+      "As a backend developer, I've always found localization daunting. i18n Translate changed that by making the process straightforward and efficient. I uploaded our JSON files, and within minutes, I had translations ready for deployment. It's been a game-changer for our international projects.",
   },
   {
     user: {
-      name: "User3",
-      username: "weijunext",
+      name: "Carol",
+      username: "designCarol",
       image: "/images/users/3.png",
     },
     content:
-      "The performance of this template is outstanding, with very fast loading times and SEO-friendly features. As a developer focused on product optimization, I appreciate the high performance and optimization of the template. With simple modifications, I was able to further optimize my landing page, improving the speed at which users can access it. The SEO friendliness of the template also helped my page achieve better rankings in search engines.",
+      "The immediate feedback and accuracy of i18n Translate have been crucial for our design team. We're able to see how our content looks in various languages instantly, which has greatly improved our workflow and the quality of our international user interface designs.",
   },
   {
     user: {
-      name: "User4",
-      username: "weijunext",
+      name: "Dave",
+      username: "devDave",
       image: "/images/users/4.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "i18n Translate's API was incredibly easy to integrate into our development process. It provided us with instant translations that were both accurate and culturally relevant, making our application truly global without the hassle of external translators.",
   },
   {
     user: {
-      name: "User5",
-      username: "weijunext",
+      name: "Eva",
+      username: "evaLang",
       image: "/images/users/5.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "As a project manager, coordinating multiple language versions has always been a challenge. i18n Translate simplified everything by providing high-quality translations quickly. This has not only reduced our costs but also sped up our time to market significantly.",
   },
   {
     user: {
-      name: "User6",
-      username: "weijunext",
-      image: "/images/users/4.png",
+      name: "Frank",
+      username: "frontendFrank",
+      image: "/images/users/2.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "i18n Translate's user-friendly platform allowed me to add multi-language support to our website effortlessly. The translations are excellent, and the quick turnaround time helped us meet our project deadlines with ease.",
   },
   {
     user: {
-      name: "User7",
-      username: "weijunext",
-      image: "/images/users/5.png",
+      name: "Grace",
+      username: "graceUX",
+      image: "/images/users/2.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "What impressed me most about i18n Translate was how it maintained the layout and design consistency across different languages. This has made our UX/UI design process for multilingual sites much smoother and more reliable.",
+  },
+  {
+    user: {
+      name: "Henry",
+      username: "henryGlobal",
+      image: "/images/users/1.png",
+    },
+    content:
+      "Integrating i18n Translate into our global strategy has been a pivotal move. The platform's efficiency and ease of use have enabled us to expand into new markets faster than ever before, with reliable and accessible translations.",
   },
 ];

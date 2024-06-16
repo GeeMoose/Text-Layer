@@ -6,29 +6,88 @@
   },
   "LandingPage": {
     "Hero": {
-      "title1": "Ship",
-      "title2": "Landing Page",
-      "title3": "Fast",
-      "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+      "title1": "Speedy",
+      "title2": "Multilingual",
+      "title3": "Service",
+      "description": "With i18n Translate, localizing your application is instantaneous. Experience rapid delivery and connect effortlessly with a worldwide audience, all while ensuring cultural accuracy."
     },
     "SocialProof": {
       "maker": "makers ship fast"
     },
-    "Feature": {
-      "title": "Features"
-    },
+
     "Pricing": {
       "title": "Pricing",
       "title2": "Get unlimited access.",
       "description": "The page you are currently viewing is an open-source, free boilerplate.",
-      "doYouLike": "Do you like this landing page boilerplate?",
-      "follow": "Follow my Twitter."
+
+      "follow": "Follow my Twitter.",
+      "buttonText": "Get started",
+      "plans": [
+        {
+          "title": "Free",
+          "price": "0",
+          "description": "For personal use",
+          "features": []
+        },
+        {
+          "title": "Pro",
+          "price": "$3",
+          "description": "For commercial use",
+          "features": ["Unlimited access", "Customizable", "24/7 support"]
+        },
+        {
+          "title": "Enterprise",
+          "price": "$15",
+          "description": "For enterprise use",
+          "features": [
+            "Unlimited access",
+            "Customizable",
+            "24/7 support",
+            "API integration"
+          ]
+        }
+      ]
     },
     "WallOfLove": {
       "title": "Wall of Love",
-      "description1": "If you use this landing page template and recommend it on your Twitter,",
+      "description1": "If you use our translate product and recommend it on your Twitter,",
       "description2": "please let me know",
       "description3": ". I will display your tweet and recommendation here."
+    },
+    "Feature": {
+      "title": "Features",
+      "list": [
+        {
+          "title": "Instant Translation",
+          "content": "Get immediate translations for your content, documents, and applications. Our service is designed to provide fast and accurate translations to meet your multilingual needs.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "High-Quality Results",
+          "content": "Our translation service uses advanced language models to ensure high-quality outcomes. We provide accurate and natural translations suitable for business, educational, and personal use.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Customization Options",
+          "content": "We offer various customization options, including adjustments in language style and the use of formal or informal expressions, to meet different translation needs for various occasions.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Industry-Specific Terminologies",
+          "content": "Our system can recognize and accurately translate industry-specific terminologies, including medical, legal, and technical terms. Users can also customize terminology glossaries to optimize translation results for specific needs.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "Data Security",
+          "content": "We place great importance on the security of user data. All translation data are encrypted, and we adhere to strict data protection regulations to manage and protect user information.",
+          "icon": "FaToolbox"
+        },
+        {
+          "title": "API Integration",
+          "content": "We provide an API that allows developers to easily integrate our translation services into various applications and systems, supporting automation and batch processing needs.",
+          "icon": "FaToolbox"
+        }
+      ]
     },
     "FAQ": {
       "title": "FAQs",
@@ -73,17 +132,16 @@
       ]
     },
     "CTA": {
-      "title": "Build Your Landing Page Now",
-      "description1": "Build",
-      "description2": "your landing page,",
-      "description3": "show",
-      "description4": "your product, and",
-      "description5": "start earning",
-      "description6": "!"
+      "title": "Build Your Multilingual Product Now",
+      "description1": "Establish ",
+      "description2": "Your Multilingual Presence, ",
+      "description3": "Display",
+      "description4": "Your Product Worldwide,  and ",
+      "description5": "Begin",
+      "description6": " Engaging!"
     },
     "CTAButton": {
       "title": "Get Boilerplate"
     }
   }
 }
-

@@ -1,12 +1,34 @@
-import { ALL_FEATURES } from "@/config/feature";
 import { useTranslations } from "next-intl";
 import React from "react";
+import { IconType } from "react-icons";
+import { FaToolbox } from "react-icons/fa6";
 import { RoughNotation } from "react-rough-notation";
 
+interface FeatureItem {
+  title: string;
+  content: string;
+  icon: IconType;
+}
+
+interface FeatureProps {
+  title: string;
+  content: string;
+  icon: string;
+}
+
+const icons: Record<string, IconType> = {
+  FaToolbox: FaToolbox,
+};
+
 const Feature = ({ id }: { id: string }) => {
-  const langName = "en";
   const t = useTranslations("LandingPage");
-  const FEATURES = ALL_FEATURES[`FEATURES_${langName.toUpperCase()}`];
+  const FEATURES: FeatureItem[] = t
+    .raw("Feature.list")
+    .map((item: FeatureProps) => ({
+      title: item.title,
+      content: item.content,
+      icon: icons[item.icon],
+    }));
   return (
     <section
       id={id}
@@ -18,7 +40,7 @@ const Feature = ({ id }: { id: string }) => {
         </RoughNotation>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {FEATURES?.map((feature, index) => (
+        {FEATURES?.map((feature: FeatureItem, index: number) => (
           <div
             key={feature.title}
             className={`
