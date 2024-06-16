@@ -52,7 +52,7 @@ const Pricing = ({ id }: { id: string }) => {
         </p>
       </div>
       <Spacer y={8} />
-      <div className="grid grid-cols-3 gap-2 sm:grid-cols-1 justify-items-center">
+      <div className="grid grid-cols-3 gap-2 justify-items-center">
         {plans?.map((plan) => (
           <Card key={plan.key} className="p-3 flex-1 w-[90%]" shadow="md">
             <CardHeader className="flex flex-col items-start gap-2 pb-6">
