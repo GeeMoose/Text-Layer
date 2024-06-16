@@ -2,8 +2,7 @@ import { Pathnames } from "next-intl/routing";
 
 export const locales = [
   "en",
-  "en-US",
-  "en-UK",
+
   "zh",
   "zh-CN",
   "zh-HK",

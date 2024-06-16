@@ -1,5 +1,8 @@
 {
   "LandingPage": {
+    "CTAButton": {
+      "title": "지금 사용해보세요"
+    },
     "Pricing": {
       "buttonText": "시작하기",
       "plans": [
@@ -135,9 +138,6 @@
       "description4": "제품 전 세계적으로, 그리고 ",
       "description5": "시작",
       "description6": "참여!"
-    },
-    "CTAButton": {
-      "title": "보일러플레이트 가져오기"
     }
   },
   "MetaData": {

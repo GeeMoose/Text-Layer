@@ -9,7 +9,7 @@ const CTAButton = () => {
   const t = useTranslations("LandingPage");
   return (
     <Link
-      href="https://github.com/weijunext/landing-page-boilerplate"
+      href="/project"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >

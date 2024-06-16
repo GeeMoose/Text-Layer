@@ -1,5 +1,8 @@
 {
   "LandingPage": {
+    "CTAButton": {
+      "title": "今すぐお試し"
+    },
     "Pricing": {
       "buttonText": "はじめる",
       "plans": [
@@ -135,9 +138,6 @@
       "description4": "世界中のあなたの製品、そして",
       "description5": "始める",
       "description6": "魅力的に！"
-    },
-    "CTAButton": {
-      "title": "ボイラープレートを取得"
     }
   },
   "MetaData": {

@@ -3,7 +3,7 @@ export const WALL_OF_LOVE = [
     user: {
       name: "Alice",
       username: "aliceDev",
-      image: "/images/users/1.jpeg",
+      image: "/images/users/1.png",
     },
     content:
       "Using i18n Translate, I was able to launch our multilingual app in record time. The platform's ability to handle JSON translations seamlessly across multiple languages saved us weeks of manual effort. Its accuracy and attention to cultural nuances are unmatched.",
@@ -72,3 +72,4 @@ export const WALL_OF_LOVE = [
       "Integrating i18n Translate into our global strategy has been a pivotal move. The platform's efficiency and ease of use have enabled us to expand into new markets faster than ever before, with reliable and accessible translations.",
   },
 ];
+

@@ -1,5 +1,8 @@
 {
   "LandingPage": {
+    "CTAButton": {
+      "title": "立即试用"
+    },
     "Pricing": {
       "buttonText": "开始使用",
       "plans": [
@@ -135,9 +138,6 @@
       "description4": "您的产品在全球范围内，并",
       "description5": "开始",
       "description6": "参与！"
-    },
-    "CTAButton": {
-      "title": "获取样板代码"
     }
   },
   "MetaData": {

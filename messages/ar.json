@@ -1,5 +1,8 @@
 {
   "LandingPage": {
+    "CTAButton": {
+      "title": "جربها الآن"
+    },
     "Pricing": {
       "buttonText": "ابدأ",
       "plans": [
@@ -135,9 +138,6 @@
       "description4": "منتجك في جميع أنحاء العالم، و",
       "description5": "ابدأ",
       "description6": "مشاركة!"
-    },
-    "CTAButton": {
-      "title": "احصل على نموذج أولي"
     }
   },
   "MetaData": {

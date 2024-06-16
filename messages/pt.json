@@ -1,5 +1,8 @@
 {
   "LandingPage": {
+    "CTAButton": {
+      "title": "Experimente Agora"
+    },
     "Pricing": {
       "buttonText": "Comece agora",
       "plans": [
@@ -135,9 +138,6 @@
       "description4": "Seu Produto em Todo o Mundo, e ",
       "description5": "Comece",
       "description6": " a se Engajar!"
-    },
-    "CTAButton": {
-      "title": "Obtenha o Boilerplate"
     }
   },
   "MetaData": {

@@ -1,5 +1,8 @@
 {
   "LandingPage": {
+    "CTAButton": {
+      "title": "Essayer maintenant"
+    },
     "Pricing": {
       "buttonText": "Commencer",
       "plans": [
@@ -135,9 +138,6 @@
       "description4": "Votre produit dans le monde entier, et ",
       "description5": "Commencez ",
       "description6": "À engager !"
-    },
-    "CTAButton": {
-      "title": "Obtenir le modèle"
     }
   },
   "MetaData": {
