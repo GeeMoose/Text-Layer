@@ -1,7 +1,7 @@
 {
   "LandingPage": {
     "CTAButton": {
-      "title": "立即试用"
+      "title": "在Canva立即试用"
     },
     "Pricing": {
       "buttonText": "开始使用",
@@ -39,10 +39,10 @@
       "follow": "关注我的 Twitter。"
     },
     "Hero": {
-      "title1": "快速",
-      "title2": "多语言",
-      "title3": "服务",
-      "description": "使用 i18n Translate，您的应用程序本地化是即时的。体验快速交付，并与全球受众轻松建立联系，同时确保文化准确性。"
+      "title1": "文本",
+      "title2": "图层",
+      "title3": "& 可画",
+      "description": "使用文本工具在新图层上设计新文本。在图层面板中，将文本图层放置在原始图像图层和主体图层之间。"
     },
     "SocialProof": {
       "maker": "制造商快速发货"

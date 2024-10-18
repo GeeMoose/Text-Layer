@@ -6,20 +6,18 @@
   },
   "LandingPage": {
     "Hero": {
-      "title1": "Speedy",
-      "title2": "Multilingual",
-      "title3": "Service",
-      "description": "With i18n Translate, localizing your application is instantaneous. Experience rapid delivery and connect effortlessly with a worldwide audience, all while ensuring cultural accuracy."
+      "title1": "Text",
+      "title2": "Layer",
+      "title3": "& Canva",
+      "description": "Use the Text Tool to design new text on a new layer. Place the text layer between the original image layer and the subject layer in the Layers panel."
     },
     "SocialProof": {
       "maker": "makers ship fast"
     },
-
     "Pricing": {
       "title": "Pricing",
       "title2": "Get unlimited access.",
       "description": "The page you are currently viewing is an open-source, free boilerplate.",
-
       "follow": "Follow my Twitter.",
       "buttonText": "Get started",
       "plans": [
@@ -33,7 +31,11 @@
           "title": "Pro",
           "price": "$3",
           "description": "For commercial use",
-          "features": ["Unlimited access", "Customizable", "24/7 support"]
+          "features": [
+            "Unlimited access",
+            "Customizable",
+            "24/7 support"
+          ]
         },
         {
           "title": "Enterprise",
@@ -141,7 +143,7 @@
       "description6": " Engaging!"
     },
     "CTAButton": {
-      "title": "Try It Now"
+      "title": "Try It Now Free on Canva"
     }
   }
 }

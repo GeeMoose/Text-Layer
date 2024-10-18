@@ -1,9 +1,9 @@
 import jsonEn from "@/messages/en.json";
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX } from "react-icons/bs";
+// import { BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { SiBuymeacoffee } from "react-icons/si";
-const OPEN_SOURCE_URL = "https://github.com/Deniffer";
+// import { SiBuymeacoffee } from "react-icons/si";
+// const OPEN_SOURCE_URL = "https://github.com/Deniffer";
 const baseSiteConfig = {
   name: jsonEn.MetaData.title,
   description: jsonEn.MetaData.description,
@@ -31,31 +31,31 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: "repo", href: OPEN_SOURCE_URL, icon: BsGithub },
-    {
-      name: "twitter",
-      href: "https://twitter.com/deniffer_001",
-      icon: BsTwitterX,
-    },
-    {
-      name: "buyMeCoffee",
-      href: "https://www.buymeacoffee.com/deniffer",
-      icon: SiBuymeacoffee,
-    },
+    // { name: "repo", href: OPEN_SOURCE_URL, icon: BsGithub },
+    // {
+    //   name: "twitter",
+    //   href: "https://twitter.com/deniffer_001",
+    //   icon: BsTwitterX,
+    // },
+    // {
+    //   name: "buyMeCoffee",
+    //   href: "https://www.buymeacoffee.com/deniffer",
+    //   icon: SiBuymeacoffee,
+    // },
   ],
   footerLinks: [
     { name: "email", href: "mailto:deniffer.001@gmail.com", icon: MdEmail },
-    {
-      name: "twitter",
-      href: "https://twitter.com/deniffer_001",
-      icon: BsTwitterX,
-    },
-    { name: "github", href: "https://github.com/Deniffer/", icon: BsGithub },
-    {
-      name: "buyMeCoffee",
-      href: "https://www.buymeacoffee.com/deniffer",
-      icon: SiBuymeacoffee,
-    },
+    // {
+    //   name: "twitter",
+    //   href: "https://twitter.com/deniffer_001",
+    //   icon: BsTwitterX,
+    // },
+    // { name: "github", href: "https://github.com/Deniffer/", icon: BsGithub },
+    // {
+    //   name: "buyMeCoffee",
+    //   href: "https://www.buymeacoffee.com/deniffer",
+    //   icon: SiBuymeacoffee,
+    // },
   ],
   footerProducts: [],
 };

@@ -11,13 +11,21 @@ import { ThemedButton } from "../ThemedButton";
 
 const links = [
   {
-    label: "Features",
-    href: "#Features",
+    label: "Home",
+    href: "/",
   },
   {
-    label: "Pricing",
-    href: "#Pricing",
+    label: "Gallery",
+    href: "#Gallery",
   },
+  // {
+  //   label: "Features",
+  //   href: "#Features",
+  // },
+  // {
+  //   label: "Pricing",
+  //   href: "#Pricing",
+  // },
   {
     label: "Wall of Love",
     href: "#WallOfLove",
@@ -25,6 +33,10 @@ const links = [
   {
     label: "FAQ",
     href: "#FAQ",
+  },
+  {
+    label: "Contact",
+    href: "#Contact",
   },
 ];
 
@@ -36,8 +48,8 @@ const Header = () => {
         <div className="flex items-center md:gap-x-12">
           <Link
             href="/"
-            aria-label="i18n Translate"
-            title="i18n Translate"
+            aria-label="Text Layer"
+            title="Text Layer"
             className="flex items-center space-x-1 font-bold"
           >
             <Image
@@ -48,12 +60,12 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              i18n Translate
+              Text Layer
             </span>
           </Link>
         </div>
 
-        <ul className="hidden items-center gap-6 md:flex">
+        <ul className="hidden items-center justify-center gap-6 md:flex border border-gray-300 rounded-full px-20 py-5 w-full sm:w-auto mx-auto">
           {links.map((link) => (
             <li key={link.label}>
               <Link
