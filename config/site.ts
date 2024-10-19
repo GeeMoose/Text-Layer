@@ -1,7 +1,6 @@
 import jsonEn from "@/messages/en.json";
 import { SiteConfig } from "@/types/siteConfig";
 // import { BsGithub } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
 // import { SiBuymeacoffee } from "react-icons/si";
 // const OPEN_SOURCE_URL = "https://github.com/Deniffer";
 const baseSiteConfig = {
@@ -13,12 +12,12 @@ const baseSiteConfig = {
   keywords: jsonEn.MetaData.keywords,
   authors: [
     {
-      name: "deniffer",
-      url: "https://blog.deniffer.com",
-      twitter: "https://twitter.com/deniffer_001",
+      name: "a1d.ai",
+      url: "",
+      twitter: "https://x.com/a1d_ai",
     },
   ],
-  creator: "@deniffer",
+  creator: "@a1d",
 
   themeColors: [
     { media: "(prefers-color-scheme: light)", color: "white" },
@@ -44,7 +43,7 @@ const baseSiteConfig = {
     // },
   ],
   footerLinks: [
-    { name: "email", href: "mailto:deniffer.001@gmail.com", icon: MdEmail },
+    // { name: "email", href: "mailto:deniffer.001@gmail.com", icon: MdEmail },
     // {
     //   name: "twitter",
     //   href: "https://twitter.com/deniffer_001",

@@ -68,14 +68,25 @@ const Header = () => {
         <ul className="hidden items-center justify-center gap-6 md:flex border border-gray-300 rounded-full px-20 py-5 w-full sm:w-auto mx-auto">
           {links.map((link) => (
             <li key={link.label}>
-              <Link
-                href={link.href}
-                aria-label={link.label}
-                title={link.label}
-                className="tracking-wide transition-colors duration-200 font-norma"
-              >
-                {link.label}
-              </Link>
+              {link.label.toLowerCase() === 'contact' ? (
+                <Link
+                  href="/contact"
+                  aria-label={link.label}
+                  title={link.label}
+                  className="tracking-wide transition-colors duration-200 font-norma"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <Link
+                  href={link.href}
+                  aria-label={link.label}
+                  title={link.label}
+                  className="tracking-wide transition-colors duration-200 font-norma"
+                >
+                  {link.label}
+                </Link>
+              )}
             </li>
           ))}
         </ul>

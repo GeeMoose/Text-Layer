@@ -34,14 +34,14 @@
         }
       ],
       "title": "Tarification",
-      "title2": "Obtenez un accès illimité.",
-      "description": "La page que vous consultez actuellement est un modèle open source gratuit.",
-      "follow": "Suivez mon Twitter."
+      "title2": "Accès illimité à toutes les fonctionnalités.",
+      "description": "La page que vous consultez actuellement est un prototype gratuit open source.",
+      "follow": "Suivez-moi sur Twitter."
     },
     "Hero": {
       "title1": "Rapide",
       "title2": "Multilingue",
-      "title3": "Service",
+      "title3": "Traduction",
       "description": "Avec Text Layer, la localisation de votre application est instantanée. Découvrez une livraison rapide et connectez-vous facilement avec un public mondial, tout en garantissant l'exactitude culturelle."
     },
     "SocialProof": {
@@ -93,56 +93,56 @@
       "description": "Voici quelques-unes des questions les plus fréquemment posées.",
       "list": [
         {
-          "title": "Qu'est-ce que le service de traduction i18n ?",
+          "title": "Qu'est-ce que le service de traduction i18n ?",
           "content": "Le service de traduction i18n est conçu pour aider les utilisateurs à traduire rapidement des textes d'une langue à une autre. S'appuyant sur des technologies d'apprentissage automatique avancées, notre service fournit des traductions précises et naturelles adaptées à un usage professionnel, éducatif et personnel."
         },
         {
-          "title": "Comment commencer à utiliser le service de traduction ?",
+          "title": "Comment commencer à utiliser le service de traduction ?",
           "content": "Pour commencer, créez un compte et sélectionnez la langue dans laquelle vous devez traduire. Vous pouvez soit saisir le texte, soit télécharger un fichier contenant le texte, et notre système traitera automatiquement et fournira la traduction."
         },
         {
-          "title": "Quelle est la précision des traductions ?",
+          "title": "Quelle est la précision des traductions ?",
           "content": "Notre service de traduction utilise les modèles linguistiques les plus récents pour garantir des résultats de haute qualité. Nous mettons également régulièrement à jour nos modèles pour inclure les dernières évolutions linguistiques et la terminologie spécifique à l'industrie."
         },
         {
-          "title": "Quelles langues sont prises en charge ?",
+          "title": "Quelles langues sont prises en charge ?",
           "content": "Nous prenons en charge plusieurs langues, notamment l'anglais, le chinois, l'espagnol, le français et d'autres langues principales. Une liste détaillée des langues prises en charge est disponible sur notre site Web."
         },
         {
-          "title": "Comment la sécurité des données est-elle assurée ?",
+          "title": "Comment la sécurité des données est-elle assurée ?",
           "content": "Nous accordons une grande importance à la sécurité des données des utilisateurs. Toutes les données de traduction sont cryptées et nous respectons des réglementations strictes en matière de protection des données pour gérer et protéger les informations des utilisateurs."
         },
         {
-          "title": "Une API est-elle disponible pour l'intégration dans d'autres applications ?",
+          "title": "Une API est-elle disponible pour l'intégration dans d'autres applications ?",
           "content": "Oui, nous fournissons une API qui permet aux développeurs d'intégrer facilement nos services de traduction dans diverses applications et systèmes, prenant en charge les besoins d'automatisation et de traitement par lots."
         },
         {
-          "title": "Comment les terminologies spécifiques à l'industrie sont-elles traitées dans les traductions ?",
+          "title": "Comment les terminologies spécifiques à l'industrie sont-elles traitées dans les traductions ?",
           "content": "Notre système peut reconnaître et traduire avec précision les terminologies spécifiques à l'industrie, y compris les termes médicaux, juridiques et techniques. Les utilisateurs peuvent également personnaliser des glossaires de terminologie pour optimiser les résultats de la traduction en fonction de besoins spécifiques."
         },
         {
-          "title": "Les utilisateurs peuvent-ils personnaliser le style de la traduction ?",
+          "title": "Les utilisateurs peuvent-ils personnaliser le style de la traduction ?",
           "content": "Oui, nous offrons diverses options de personnalisation, y compris des ajustements du style de la langue et l'utilisation d'expressions formelles ou informelles, pour répondre à différents besoins de traduction pour diverses occasions."
         },
         {
-          "title": "Comment puis-je obtenir de l'aide si je rencontre des problèmes ?",
-          "content": "Notre équipe de support client est disponible 24 h/24 et 7 j/7. Vous pouvez nous contacter par e-mail, par téléphone ou via notre outil de chat en ligne. Nous nous engageons à répondre rapidement et à résoudre toute question ou tout problème que vous pourriez avoir."
+          "title": "Comment puis-je obtenir de l'aide si je rencontre des problèmes ?",
+          "content": "Notre équipe de support client est disponible 24 h/24 et 7 j/7. Vous pouvez nous contacter par e-mail, par téléphone ou via notre outil de chat en ligne. Nous nous engageons à répondre rapidement et à résoudre toute question ou tout problème que vous pourriez avoir."
         }
       ]
     },
     "CTA": {
       "title": "Créez votre produit multilingue dès maintenant",
-      "description1": "Établissez ",
-      "description2": "Votre présence multilingue, ",
-      "description3": "Affichez ",
-      "description4": "Votre produit dans le monde entier, et ",
-      "description5": "Commencez ",
-      "description6": "À engager !"
+      "description1": "Établissez",
+      "description2": "votre présence multilingue,",
+      "description3": "Affichez",
+      "description4": "votre produit dans le monde entier, et",
+      "description5": "Commencez",
+      "description6": "à engager !"
     }
   },
   "MetaData": {
-    "title": "Services de traduction i18n - Solutions multilingues instantanées",
-    "description": "Découvrez des services de traduction i18n de premier ordre pour une communication multilingue transparente et précise. Rapide, fiable et prêt à être intégré. Augmentez votre portée mondiale dès aujourd'hui !",
-    "keywords": "traduction i18n, services de traduction multilingue, traduction instantanée, solutions de traduction linguistique"
+    "title": "",
+    "description": "",
+    "keywords": ""
   }
 }

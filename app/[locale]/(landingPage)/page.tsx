@@ -1,5 +1,4 @@
 import CTA from "@/components/home/CTA";
-import FAQ from "@/components/home/FAQ";
 import MyGallery from "@/components/home/Gallery";
 // import Feature from "@/components/home/Feature";
 import Hero from "@/components/home/Hero";
@@ -32,7 +31,7 @@ export default function LangHome() {
       <WallOfLove id="WallOfLove" />
 
       {/* FAQ (Frequently Asked Questions) */}
-      <FAQ id="FAQ" />
+      {/* <FAQ id="FAQ" /> */}
 
       {/* CTA (Call to Action) */}
       <CTA />

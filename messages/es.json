@@ -34,23 +34,23 @@
         }
       ],
       "title": "Precios",
-      "title2": "Obtenga acceso ilimitado.",
-      "description": "La página que está viendo actualmente es un prototipo gratuito de código abierto.",
-      "follow": "Sigue mi Twitter."
+      "title2": "Acceso ilimitado a todas las funciones.",
+      "description": "La página que estás viendo actualmente es un prototipo gratuito de código abierto.",
+      "follow": "Sígueme en Twitter."
     },
     "Hero": {
       "title1": "Rápido",
       "title2": "Multilingüe",
-      "title3": "Servicio",
-      "description": "Con Text Layer, la localización de su aplicación es instantánea. Experimente una entrega rápida y conéctese sin esfuerzo con una audiencia mundial, al mismo tiempo que garantiza la precisión cultural."
+      "title3": "Traducción",
+      "description": "Con Text Layer, la localización de tu aplicación es instantánea. Experimenta una entrega rápida y conéctate sin esfuerzo con una audiencia global, mientras garantizas la precisión cultural."
     },
     "SocialProof": {
-      "maker": "los creadores envían rápido"
+      "maker": "los creadores envían rápidamente"
     },
     "WallOfLove": {
       "title": "Muro del amor",
-      "description1": "Si usa nuestro producto de traducción y lo recomienda en su Twitter,",
-      "description2": "por favor, házmelo saber",
+      "description1": "Si usas nuestro producto de traducción y lo recomiendas en tu Twitter,",
+      "description2": "por favor házmelo saber",
       "description3": ". Mostraré tu tweet y recomendación aquí."
     },
     "Feature": {
@@ -133,16 +133,16 @@
     "CTA": {
       "title": "Construye tu producto multilingüe ahora",
       "description1": "Establece",
-      "description2": "Tu presencia multilingüe, ",
+      "description2": "tu presencia multilingüe, ",
       "description3": "Muestra",
-      "description4": "Tu producto en todo el mundo, y ",
+      "description4": "tu producto globalmente, y ",
       "description5": "Comienza",
-      "description6": " ¡A interactuar!"
+      "description6": " a interactuar!"
     }
   },
   "MetaData": {
-    "title": "Servicios de Traducción i18n - Soluciones Multilingües Instantáneas",
-    "description": "Explore los servicios de traducción i18n de primer nivel para una comunicación multilingüe fluida y precisa. Rápido, confiable y listo para integrar. ¡Eleve su alcance global hoy!",
-    "keywords": "traducción i18n, servicios de traducción multilingüe, traducción instantánea, soluciones de traducción de idiomas"
+    "title": "",
+    "description": "",
+    "keywords": ""
   }
 }
